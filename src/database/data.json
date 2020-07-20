@@ -1,0 +1,80 @@
+{
+    "emails": [
+        "email-landscapegarden2020@gmail.com"
+    ],
+    "mobiles": [
+        "0409 518 440"
+    ],
+    "services": [
+        {
+            "name": "Landscaping",
+            "iconPath": "icofont-computer",
+            "description": "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident"
+        },
+        {
+            "name": "Turf installation",
+            "iconPath": "icofont-chart-bar-graph",
+            "description": "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident"
+        },
+        {
+            "name": "Retaining walls",
+            "iconPath": "icofont-earth",
+            "description": "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident"
+        },
+        {
+            "name": "Lawn care",
+            "iconPath": "icofont-image",
+            "description": "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident"
+        },
+        {
+            "name": "Excavation",
+            "iconPath": "icofont-settings",
+            "description": "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident"
+        },
+        {
+            "name": "Garden beds",
+            "iconPath": "icofont-tasks-alt",
+            "description": "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident"
+        }
+    ],
+    "links": [
+        {
+            "name": "Home",
+            "isMenu": true,
+            "isUsefulLink": true
+        },
+        {
+            "name": "About Us",
+            "isMenu": true,
+            "isUsefulLink": true
+        },
+        {
+            "name": "Services",
+            "isMenu": true,
+            "isUsefulLink": true
+        },
+        {
+            "name": "Portfolio",
+            "isMenu": true,
+            "isUsefulLink": false
+        },
+        {
+            "name": "Contact Us",
+            "isMenu": true,
+            "isUsefulLink": false
+        },
+        {
+            "name": "Terms of service",
+            "isMenu": false,
+            "isUsefulLink": true
+        },
+        {
+            "name": "Privacy Policy",
+            "isMenu": false,
+            "isUsefulLink": true
+        }
+
+    ],
+    "address": "8 Heath Drive",
+    "address1": "Clare SA 5453"
+}

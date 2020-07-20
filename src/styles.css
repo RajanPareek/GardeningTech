@@ -10,11 +10,11 @@
 --------------------------------------------------------------*/
 body {
     font-family: "Open Sans", sans-serif;
-    color: #444;
+    color: rgb(213, 255, 145);
   }
   
   a {
-    color: #428bca;
+    color: #f8b601;
   }
   
   a:hover {
@@ -37,8 +37,8 @@ body {
     border-radius: 3px;
     right: 15px;
     bottom: 15px;
-    background: #428bca;
-    color: #fff;
+    background: #157e15;
+    color: rgb(250, 160, 5);
     transition: display 0.5s ease-in-out;
     z-index: 99999;
   }
@@ -51,8 +51,8 @@ body {
   }
   
   .back-to-top:hover {
-    color: #fff;
-    background: #629fd3;
+    color: #157e15;
+    background: rgb(250, 160, 5);
     transition: background 0.2s ease-in-out;
   }
   
@@ -60,7 +60,7 @@ body {
   # Top Bar
   --------------------------------------------------------------*/
   #topbar {
-    background: #fff;
+    background: rgb(227, 247, 200);
     padding: 10px 0;
     border-bottom: 1px solid #eee;
     font-size: 14px;
@@ -68,16 +68,16 @@ body {
   
   #topbar .contact-info a {
     line-height: 1;
-    color: #444;
+    color: rgb(250, 160, 5);
     transition: 0.3s;
   }
   
   #topbar .contact-info a:hover {
-    color: #428bca;
+    color: #157e15;
   }
   
   #topbar .contact-info i {
-    color: #428bca;
+    color: rgb(250, 160, 5);
     padding: 4px;
   }
   
@@ -87,7 +87,7 @@ body {
   }
   
   #topbar .social-links a {
-    color: #5c768d;
+    color: rgb(250, 160, 5);
     padding: 4px 12px;
     display: inline-block;
     line-height: 1px;
@@ -95,7 +95,7 @@ body {
   }
   
   #topbar .social-links a:hover {
-    color: #428bca;
+    color: #157e15;
   }
   
   /*--------------------------------------------------------------
@@ -106,7 +106,7 @@ body {
     transition: all 0.5s;
     transition: all 0.5s;
     padding: 10px 0;
-    background: #fff;
+    background: rgb(211, 245, 167);
     z-index: 997;
   }
   
@@ -125,7 +125,7 @@ body {
   }
   
   #header .logo h1 a, #header .logo h1 a:hover {
-    color: #1c5c93;
+    color: rgb(250, 160, 5);
     text-decoration: none;
   }
   
@@ -154,7 +154,7 @@ body {
   .nav-menu a {
     display: block;
     position: relative;
-    color: #5c768d;
+    color: rgb(250, 160, 5);
     padding: 12px 15px;
     transition: 0.3s;
     font-size: 14px;
@@ -162,7 +162,7 @@ body {
   }
   
   .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-    color: #428bca;
+    color: #157e15;
     text-decoration: none;
   }
   
@@ -252,7 +252,7 @@ body {
     left: -260px;
     width: 260px;
     padding-top: 18px;
-    background: #1f3548;
+    background: rgb(253, 224, 174);
     transition: 0.4s;
   }
   
@@ -265,13 +265,13 @@ body {
   .mobile-nav a {
     display: block;
     position: relative;
-    color: #e3f0fc;
+    color: #157e15;
     padding: 10px 20px;
     font-weight: 500;
   }
   
   .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-    color: #9eccf4;
+    color: rgb(250, 160, 5);
     text-decoration: none;
   }
   
@@ -316,7 +316,7 @@ body {
   }
   
   .mobile-nav-toggle i {
-    color: #5c768d;
+    color: #157e15;
   }
   
   .mobile-nav-overly {
@@ -340,7 +340,7 @@ body {
   }
   
   .mobile-nav-active .mobile-nav-toggle i {
-    color: #fff;
+    color: rgb(250, 160, 5);
   }
   
  /*--------------------------------------------------------------
@@ -351,7 +351,7 @@ section {
   }
   
   .section-bg {
-    background-color: #f5f9fc;
+    background-color: rgb(227, 247, 200);
   }
   
   .section-title {
@@ -364,7 +364,7 @@ section {
     font-weight: 600;
     margin-bottom: 20px;
     padding-bottom: 0;
-    color: #5c768d;
+    color: rgb(250, 160, 5);
   }
   
   .section-title p {

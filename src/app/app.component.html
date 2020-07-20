@@ -1,11 +1,11 @@
-<app-topbar></app-topbar>
-<app-header></app-header>
+<app-topbar [commonData]="common"></app-topbar>
+<app-header [commonData]="common"></app-header>
 <app-home></app-home>
 <main id="main">
 <app-aboutus></app-aboutus>
-<app-services></app-services>
+<app-services [commonData]="common"></app-services>
 <app-portfolio></app-portfolio>
-<app-contactus></app-contactus>
+<app-contactus [commonData]="common"></app-contactus>
 </main>
-<app-footer></app-footer>
+<app-footer [commonData]="common"></app-footer>
 <router-outlet></router-outlet>

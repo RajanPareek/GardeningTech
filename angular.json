@@ -21,17 +21,24 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/database"
             ],
             "styles": [
               "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
+              "node_modules/owl.carousel/dist/assets/owl.carousel.min.css",
+              "node_modules/aos/dist/aos.css",
+              "src/assets/icofont/icofont.min.css",
+              "src/assets/animate.css/animate.min.css"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "node_modules/owl.carousel/dist/owl.carousel.min.js"
+              "node_modules/owl.carousel/dist/owl.carousel.min.js",
+              "node_modules/aos/dist/aos.js",
+              "src/assets/jquery.easing/jquery.easing.min.js",
+              "src/assets/jquery-sticky/jquery.sticky.js"
             ]
           },
           "configurations": {

@@ -29,9 +29,9 @@
     box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);
   }
   
-  .services .icon-box:hover .icon i {
+  /*.services .icon-box:hover .icon i {
     box-shadow: 0px 0 30px rgba(66, 139, 202, 0.5);
-  }
+  }*/
   
   .services .title {
     font-weight: 600;
@@ -46,7 +46,7 @@
     transition: 0.3s;
   }
   
-  .services .title a:hover {
+  /*.services .title a:hover {
     color: #428bca;
   }
   
@@ -59,7 +59,7 @@
     background: #428bca;
     bottom: 0;
     left: calc(50% - 25px);
-  }
+  }*/
   
   .services .description {
     line-height: 24px;

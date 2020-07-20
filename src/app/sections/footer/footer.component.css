@@ -1,14 +1,14 @@
 #footer {
-    background: #587187;
+    background: rgb(248, 193, 99);
     padding: 0 0 30px 0;
-    color: #fff;
+    color: #157e15;
     font-size: 14px;
   }
   
   #footer .footer-top {
-    background: #5c768d;
-    border-top: 1px solid #768fa6;
-    border-bottom: 1px solid #67839c;
+    background: rgb(253, 224, 174);
+    border-top: 1px solid rgb(245, 217, 168);
+    border-bottom: 1px solid rgb(245, 217, 168);
     padding: 60px 0 30px 0;
   }
   
@@ -29,14 +29,14 @@
     line-height: 24px;
     margin-bottom: 0;
     font-family: "Raleway", sans-serif;
-    color: #fff;
+    color: #157e15;
   }
   
   #footer .footer-top .social-links a {
     font-size: 18px;
     display: inline-block;
     background: #768fa6;
-    color: #fff;
+    color: #157e15;
     line-height: 1;
     padding: 8px 0;
     margin-right: 4px;
@@ -49,14 +49,14 @@
   
   #footer .footer-top .social-links a:hover {
     background: #428bca;
-    color: #fff;
+    color: rgb(250, 160, 5);
     text-decoration: none;
   }
   
   #footer .footer-top h4 {
     font-size: 16px;
     font-weight: 600;
-    color: #fff;
+    color: #157e15;
     position: relative;
     padding-bottom: 12px;
   }
@@ -73,7 +73,7 @@
   
   #footer .footer-top .footer-links ul i {
     padding-right: 2px;
-    color: #9eccf4;
+    color: #157e15;
     font-size: 18px;
     line-height: 1;
   }
@@ -89,19 +89,21 @@
   }
   
   #footer .footer-top .footer-links ul a {
-    color: #fff;
+    color: #157e15;
     transition: 0.3s;
     display: inline-block;
     line-height: 1;
   }
   
   #footer .footer-top .footer-links ul a:hover {
-    color: #9eccf4;
+    color: rgb(250, 160, 5);
+    text-decoration: none; 
+    font-weight: bold;
   }
   
   #footer .footer-top .footer-newsletter form {
     margin-top: 30px;
-    background: #fff;
+    background: #157e15;
     padding: 6px 10px;
     position: relative;
     border-radius: 4;
@@ -129,7 +131,7 @@
   }
   
   #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-    background: #5295ce;
+    background: #5295ce;       
   }
   
   #footer .copyright {
@@ -141,7 +143,7 @@
     padding-top: 10px;
     text-align: center;
     font-size: 13px;
-    color: #fff;
+    color: #157e15;
   }
   
   #footer .credits a {

@@ -62,10 +62,14 @@
     font-weight: 900;
   }
   
-  #home p {
+  #home h3 {
     width: 80%;
     -webkit-animation-delay: 0.4s;
     animation-delay: 0.4s;
+    color: #fff;
+  }
+
+  #home h3 a {
     color: #fff;
   }
   
@@ -122,15 +126,17 @@
     transition: 0.5s;
     line-height: 1;
     margin: 10px;
-    color: #fff;
+    color: rgb(250, 160, 5);
     -webkit-animation-delay: 0.8s;
     animation-delay: 0.8s;
     border: 0;
-    background: #428bca;
+    background: #157e15;
   }
   
   #home .btn-get-started:hover {
-    background: #1c5c93;
+    background: rgb(250, 160, 5);
+    color: #157e15;  
+    text-decoration: none;
   }
   
   @media (max-width: 768px) {

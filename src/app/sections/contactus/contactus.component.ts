@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Common } from 'src/models/common';
 
 @Component({
   selector: 'app-contactus',
@@ -6,4 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./contactus.component.css']
 })
 export class ContactusComponent {
+  @Input() commonData: Common;
 }

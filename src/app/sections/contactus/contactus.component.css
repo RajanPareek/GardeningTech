@@ -106,13 +106,14 @@
   }
   
   .contact .php-email-form button[type="submit"] {
-    background: #428bca;
+    background: #157e15;
     border: 0;
     padding: 10px 24px;
-    color: #fff;
+    color: rgb(250, 160, 5);
     transition: 0.4s;
   }
   
   .contact .php-email-form button[type="submit"]:hover {
-    background: #6aa3d5;
+    background: rgb(250, 160, 5);
+    color: #157e15;
   }
