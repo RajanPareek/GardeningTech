@@ -24,6 +24,13 @@ export class AppComponent implements OnInit {
     });
   }
 
+  openGoogleMap(): void {
+    let address = this.common.address + ' ' + this.common.address1;
+    address = address.replace(/\,/g, ' ');
+    address = address.replace(/\ /g, '%20');
+    window.open("http://maps.google.com/maps?q=" + address, "_blank");
+  }
+
   /*//@HostListener('window:scroll', ['$event']) 
   onScrollEvent($event){
     if ($(this).scrollTop() > 100) {
@@ -105,7 +112,7 @@ export class AppComponent implements OnInit {
         }
       }
     });    
-
+    
     function mobileNavigation() {
       // Mobile Navigation
       if ($('.nav-menu').length) {
@@ -195,7 +202,8 @@ export class AppComponent implements OnInit {
         scrollTop: 0
       }, 1500, 'easeInOutExpo');
       return false;
-    });    
+    });   
+    
 
     // Init AOS
     function aos_init() {

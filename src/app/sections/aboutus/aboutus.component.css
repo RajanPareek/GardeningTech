@@ -34,18 +34,14 @@
     justify-content: center;
     width: 72px;
     height: 72px;
-    background: #f1f7fb;
+    background: #f8fcf5;
     border-radius: 6px;
     transition: 0.5s;
   }
   
   .about .icon-box .icon i {
-    color: #428bca;
+    color: rgb(250, 160, 5);
     font-size: 32px;
-  }
-    
-  .about .icon-box:hover .icon i {
-    color: #fff;
   }
   
   .about .icon-box .title {
@@ -54,24 +50,14 @@
     margin-bottom: 10px;
     font-size: 18px;
     text-transform: uppercase;
-  }
-  
-  .about .icon-box .title a {
-    color: #343a40;
-    transition: 0.3s;
-  }
-  
+  }  
   
   .about .icon-box .description {
     margin-left: 95px;
     line-height: 24px;
     font-size: 14px;
   }
-  
-  .about .video-box {
-    position: relative;
-  } 
-  
+    
   @-webkit-keyframes pulsate-btn {
     0% {
       transform: scale(0.6, 0.6);

@@ -4,8 +4,8 @@
 <main id="main">
 <app-aboutus></app-aboutus>
 <app-services [commonData]="common"></app-services>
-<app-portfolio></app-portfolio>
-<app-contactus [commonData]="common"></app-contactus>
+<app-portfolio [commonData]="common"></app-portfolio>
+<app-contactus (openMap)="openGoogleMap()" [commonData]="common"></app-contactus>
 </main>
-<app-footer [commonData]="common"></app-footer>
+<app-footer (openMap)="openGoogleMap()" [commonData]="common"></app-footer>
 <router-outlet></router-outlet>

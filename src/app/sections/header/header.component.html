@@ -2,14 +2,13 @@
     <div class="container">
 
       <div class="logo float-left">
-        <h1 class="text-light"><a href="index.html"><span>Gardening Techs</span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <h1 class="text-light"><a href="#home" class="animate__animated animate__fadeInUp scrollto"><span>Gardening Techs</span></a></h1>        
+        <!--<a href="#home" class="animate__animated animate__fadeInUp scrollto"><img src="assets/img/logo/logo.jpg" alt="" class="img-fluid"></a>-->
       </div>
 
       <nav class="nav-menu float-right d-none d-lg-block">
         <ul>
-          <li *ngFor="let link of getMenuLinks(); first as isFirst" [class.active]="isFirst"><a href="#{{removeWhitespace(link.name) | lowercase }}">{{link.name}}</a></li>
+          <li *ngFor="let link of getMenuLinks(); first as isFirst" [class.active]="isFirst"><a href="#{{removeWhitespace(link.name) | lowercase }}"><span>{{link.name}}</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
 

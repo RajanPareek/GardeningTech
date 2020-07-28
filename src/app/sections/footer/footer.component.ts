@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Common } from 'src/models/common';
 
 @Component({
@@ -8,10 +8,15 @@ import { Common } from 'src/models/common';
 })
 export class FooterComponent {
   @Input() commonData: Common;
+  @Output() openMap: EventEmitter<any> = new EventEmitter();
 
   getUsefulLinks() {    
     if(!this.commonData.links)
       return [];
     return this.commonData.links.filter(x => x.isUsefulLink);
+  }
+
+  openGoogleMap(){
+    this.openMap.emit(null);    
   }
 }

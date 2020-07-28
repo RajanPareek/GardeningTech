@@ -12,10 +12,10 @@
   
   .contact .info-box i {
     font-size: 32px;
-    color: #428bca;
+    color: rgb(250, 160, 5);
     border-radius: 50%;
     padding: 8px;
-    border: 2px dotted #9eccf4;
+    border: 2px dotted  #157e15;
   }
   
   .contact .info-box h3 {
@@ -31,34 +31,25 @@
     font-size: 14px;
     margin-bottom: 0;
   }
-  
-  .contact .php-email-form {
+  .contact .info-box a {
+    text-decoration: none;
+    color: #666;
+    cursor: pointer;
+  }
+  .contact .azure-email-form {
     box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
     padding: 30px;
   }
   
-  .contact .php-email-form .validate {
-    display: none;
-    color: red;
-    margin: 0 0 15px 0;
-    font-weight: 400;
-    font-size: 13px;
+  .contact .azure-email-form .error-message {
+    display: block;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
   }
   
-  .contact .php-email-form .error-message {
-    display: none;
-    color: #fff;
-    background: #ed3c0d;
-    text-align: left;
-    padding: 15px;
-    font-weight: 600;
-  }
-  
-  .contact .php-email-form .error-message br + br {
-    margin-top: 25px;
-  }
-  
-  .contact .php-email-form .sent-message {
+  .contact .azure-email-form .sent-message {
     display: none;
     color: #fff;
     background: #18d26e;
@@ -67,14 +58,14 @@
     font-weight: 600;
   }
   
-  .contact .php-email-form .loading {
+  .contact .azure-email-form .loading {
     display: none;
     background: #fff;
     text-align: center;
     padding: 15px;
   }
   
-  .contact .php-email-form .loading:before {
+  .contact .azure-email-form .loading:before {
     content: "";
     display: inline-block;
     border-radius: 50%;
@@ -87,25 +78,25 @@
     animation: animate-loading 1s linear infinite;
   }
   
-  .contact .php-email-form input, .contact .php-email-form textarea {
+  .contact .azure-email-form input, .contact .azure-email-form textarea {
     border-radius: 0;
     box-shadow: none;
     font-size: 14px;
   }
   
-  .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
+  .contact .azure-email-form input::focus, .contact .azure-email-form textarea::focus {
     background-color: #428bca;
   }
   
-  .contact .php-email-form input {
+  .contact .azure-email-form input {
     padding: 20px 15px;
   }
   
-  .contact .php-email-form textarea {
+  .contact .azure-email-form textarea {
     padding: 12px 15px;
   }
   
-  .contact .php-email-form button[type="submit"] {
+  .contact .azure-email-form button[type="submit"] {
     background: #157e15;
     border: 0;
     padding: 10px 24px;
@@ -113,7 +104,7 @@
     transition: 0.4s;
   }
   
-  .contact .php-email-form button[type="submit"]:hover {
+  .contact .azure-email-form button[type="submit"]:hover {
     background: rgb(250, 160, 5);
     color: #157e15;
   }

@@ -8,32 +8,32 @@
     "services": [
         {
             "name": "Landscaping",
-            "iconPath": "icofont-computer",
+            "iconPath": "icofont-cubes",
             "description": "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident"
         },
         {
             "name": "Turf installation",
-            "iconPath": "icofont-chart-bar-graph",
+            "iconPath": "icofont-layout",
             "description": "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident"
         },
         {
             "name": "Retaining walls",
-            "iconPath": "icofont-earth",
+            "iconPath": "icofont-wall",
             "description": "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident"
         },
         {
             "name": "Lawn care",
-            "iconPath": "icofont-image",
+            "iconPath": "icofont-water-drop",
             "description": "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident"
         },
         {
             "name": "Excavation",
-            "iconPath": "icofont-settings",
+            "iconPath": "icofont-excavator",
             "description": "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident"
         },
         {
             "name": "Garden beds",
-            "iconPath": "icofont-tasks-alt",
+            "iconPath": "icofont-leaf",
             "description": "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident"
         }
     ],
@@ -75,6 +75,69 @@
         }
 
     ],
+    "portfolios": [
+        {
+            "name": "Landscaping",
+            "imagePath": "assets/img/portfolio/portfolia-3.jpg",
+            "description": "Voluptatum deleniti"
+        },
+        {
+            "name": "Turf installation",
+            "imagePath": "assets/img/portfolio/portfolia-6.jpg",
+            "description": "Voluptatum deleniti"
+        },
+        {
+            "name": "Retaining walls",
+            "imagePath": "assets/img/portfolio/portfolia-5.jpg",
+            "description": "Voluptatum deleniti"
+        },
+        {
+            "name": "Lawn care",
+            "imagePath": "assets/img/portfolio/portfolia-4.jpg",
+            "description": "Voluptatum deleniti"
+        },
+        {
+            "name": "Excavation",
+            "imagePath": "assets/img/portfolio/portfolia-1.jpg",
+            "description": "Voluptatum deleniti"
+        },
+        {
+            "name": "Garden beds",
+            "imagePath": "assets/img/portfolio/portfolia-2.jpg",
+            "description": "Voluptatum deleniti"
+        }
+    ],
+    "openingTimes": [
+        {
+            "day": "Monday",
+            "timing": "8am - 5pm"
+        },
+        {
+            "day": "Tuesday",
+            "timing": "8am - 5pm"
+        },
+        {
+            "day": "Wednesday",
+            "timing": "8am - 5pm"
+        },
+        {
+            "day": "Thursday",
+            "timing": "8am - 5pm"
+        },
+        {
+            "day": "Friday",
+            "timing": "8am - 5pm"
+        },
+        {
+            "day": "Saturday",
+            "timing": "8am - noon"
+        },
+        {
+            "day": "Sunday",
+            "timing": "off"
+        }
+    ],
+    "portfolioHeading": "Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.",
     "address": "8 Heath Drive",
     "address1": "Clare SA 5453"
 }

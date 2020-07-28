@@ -31,6 +31,12 @@
     font-family: "Raleway", sans-serif;
     color: #157e15;
   }
+
+  #footer .footer-top .footer-info a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #157e15;
+  }
   
   #footer .footer-top .social-links a {
     font-size: 18px;
@@ -94,7 +100,13 @@
     display: inline-block;
     line-height: 1;
   }
-  
+
+  #footer .footer-top .footer-links.footer-timings ul li {    
+    padding: 1px 0;
+  }
+  #footer .footer-top .footer-links.footer-timings ul li i {    
+    font-size: 14px;
+  }
   #footer .footer-top .footer-links ul a:hover {
     color: rgb(250, 160, 5);
     text-decoration: none; 

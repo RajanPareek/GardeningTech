@@ -1,6 +1,5 @@
-import { Component, Input, OnInit, Renderer2, Inject, ViewContainerRef } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Common } from 'src/models/common';
-import { DOCUMENT } from '@angular/common';
 
 declare var $: any;
 @Component({
@@ -9,7 +8,7 @@ declare var $: any;
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  constructor( @Inject(DOCUMENT) private document: Document,  private renderer: Renderer2, private vcRef: ViewContainerRef) { }
+  constructor() { }
   ngOnInit(): void {
     
   }
