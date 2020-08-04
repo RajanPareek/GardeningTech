@@ -139,5 +139,8 @@
     ],
     "portfolioHeading": "Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.",
     "address": "8 Heath Drive",
-    "address1": "Clare SA 5453"
+    "address1": "Clare SA 5453",
+    "emailApi": "https://emailcontactus20200730095137.azurewebsites.net/api/EmailUs",
+    "functionKey": "pBMt5FVJt5nJ/1BPIClMdugI5FqPeb0JIcaGW1TCQ/qbMZ1IQ0lbkQ==",
+    "recaptchaSiteKey": "6LcvKboZAAAAADpRCQDn8yfDvbrD7eXTZHtmBJM4"
 }

@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { LightboxModule } from 'ngx-lightbox';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RecaptchaModule, RecaptchaFormsModule } from 'ng-recaptcha';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -32,7 +34,10 @@ import { FooterComponent } from './sections/footer/footer.component';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    LightboxModule
+    LightboxModule,
+    BrowserAnimationsModule, 
+    RecaptchaModule,
+    RecaptchaFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

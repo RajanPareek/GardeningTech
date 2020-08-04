@@ -1,5 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
-import { CommonDataService } from './common-data.service';
+import { CommonDataService } from './services/common-data.service';
 import { Common } from '../models/common';
 import * as AOS from 'aos';
 declare var $: any;

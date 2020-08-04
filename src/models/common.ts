@@ -8,6 +8,9 @@ export class Common implements Deserializable {
     portfolios: Portfolio[];
     address:string;
     address1: string;
+    emailApi: string;
+    functionKey: string;
+    recaptchaSiteKey: string;
     deserialize(input: any): this {
         Object.assign(this, input);        
         return this;
@@ -54,8 +57,10 @@ export interface Deserializable {
 
 export class EmailObj {     
       public name = "";
-      public email = "";
+      public fromEmail = "";
       public mobile: number;
       public subject = "";
       public description = "";  
+      public toEmail = "";
+      public captcha = "";
 }
